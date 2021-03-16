@@ -1,5 +1,5 @@
 // Save path to samples.json
-var path = 'samples.json'
+var path = '../../data/samples.json'
 
 // Set bar chart data
 var barChartData = {
