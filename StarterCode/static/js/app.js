@@ -24,7 +24,7 @@ var bubbleChartData = {
 };
 
 // select body where table data should appear
-var tableBody = d3.select("#sample-metadata")
+var tableBody = d3.select(".panel-body")
 
 function buildTable(data) {
 
