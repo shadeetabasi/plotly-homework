@@ -1,5 +1,5 @@
 // Save path to samples.json
-var path = '../../data/samples.json'
+var path = 'samples.json'
 
 // Set bar chart data
 var barChartData = {
@@ -111,7 +111,7 @@ function updatePlotly() {
             sample_values_10.push(arrays[i][2]);
         }
 
-        // Update plots. Note the extra brackets around 'x' and 'y'
+        // Update plots
         Plotly.restyle("bar", "y", [otu_string(otu_ids_10)]);
         Plotly.restyle("bar", "x", [sample_values_10]);
         Plotly.restyle("bar", "labels", [otu_labels_10]);
@@ -127,4 +127,5 @@ function updatePlotly() {
 }
 
 init();
+updatePlotly()
   
