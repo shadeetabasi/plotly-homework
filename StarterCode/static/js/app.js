@@ -51,6 +51,7 @@ d3.json(path).then((data)=>{
     Object.entries(id).forEach(([i,v])=>{
         select.append('option').text(v);
     })
+    updatePlotly()
 });
 
 // Initializes the page with a default plot
